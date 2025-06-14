@@ -37,3 +37,7 @@ body {
 body {
   overflow-y: hidden;
 }
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
