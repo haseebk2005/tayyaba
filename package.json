@@ -30,6 +30,7 @@
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.11.2",
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",
