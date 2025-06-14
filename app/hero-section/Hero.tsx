@@ -96,14 +96,20 @@ const Hero = () => {
             className="absolute bottom-[-110px] mx-auto sm:bottom-[-100px] md:bottom-[-130px] lg:bottom-[-150px]"
             variants={imageAnimation}
           >
-            <Image
-              src={profile}
-              priority
-              alt="Tayyaba Naseer's headshot"
-              data-blobity-tooltip="Sulphite"
-              data-blobity-invert="false"
-              className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
-            />
+            <div className="relative mx-auto overflow-hidden
+                w-[150px] h-[150px]
+                md:w-[200px] md:h-[200px]
+                lg:w-[245px] lg:h-[245px]
+                rounded-[16px] md:rounded-[32px] lg:rounded-[32px]
+                grayscale hover:grayscale-0">
+  <Image
+    src="/tayyaba.png"
+    alt="Tayyaba Naseer's headshot"
+    priority
+    fill               // ← makes the image expand to fill its parent
+    style={{ objectFit: 'cover' }}
+  />
+</div>
           </motion.div>
         </div>
       </div>
