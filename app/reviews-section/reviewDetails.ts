@@ -1,6 +1,6 @@
 import { StaticImageData } from "next/image";
-import alex from "../../public/samuel.png";
-import jerry from "../../public/jerry.png";
+import alex from "../../public/samuel.avif";
+import jerry from "../../public/jerry.avif";
 import mauro from "../../public/mauro.jpeg";
 import alan from "../../public/alan.jpeg";
 import olamide from "../../public/olamide.jpeg";

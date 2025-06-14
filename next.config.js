@@ -9,6 +9,10 @@ const nextConfig = {
       "github.com",
     ],
   },
+  experimental: {
+    // 🔥 Enable the new app/ directory routing
+    appDir: true,
+  },
 };
 
 module.exports = nextConfig;
