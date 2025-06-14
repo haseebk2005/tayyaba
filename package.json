@@ -20,7 +20,7 @@
     "eslint-config-next": "13.2.3",
     "framer-motion": "^10.6.1",
     "gsap": "^3.11.5",
-    "next": "13.2.3",
+    "next": "^13.5.11",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-intersection-observer": "^9.4.3",
@@ -30,7 +30,6 @@
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {
-    "@netlify/plugin-nextjs": "^5.11.2",
     "@types/node": "18.15.0",
     "@types/react": "18.0.28",
     "autoprefixer": "^10.4.13",
